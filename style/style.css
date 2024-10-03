@@ -1,0 +1,114 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6; /* Aumenta a legibilidade do texto */
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Adiciona sombra ao header */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 12px; /* Adiciona um pouco de espaço ao redor dos links */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Transição suave */
+}
+
+nav a:hover {
+    background-color: #444; /* Muda a cor de fundo ao passar o mouse */
+    color: #ddd; /* Mantém a mudança de cor do texto */
+}
+
+/* Estilo do conteúdo */
+.conteudo {
+    padding: 20px; /* Espaçamento em volta do conteúdo */
+    max-width: 600px; /* Largura máxima do conteúdo */
+    margin: auto; /* Centraliza o conteúdo */
+    background-color: white; /* Fundo branco para o conteúdo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+}
+
+form div {
+    margin-bottom: 15px; /* Espaçamento entre os campos do formulário */
+}
+
+form label {
+    margin-bottom: 5px; /* Espaçamento abaixo dos rótulos */
+    font-weight: bold; /* Rótulos em negrito */
+}
+
+form input,
+form textarea {
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: border-color 0.3s ease-in-out; /* Transição suave para a borda */
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #333; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+}
+
+form button {
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    background-color: #333; /* Fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease-in-out; /* Transição suave para o fundo */
+}
+
+form button:hover {
+    background-color: #444; /* Cor do botão ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    position: fixed; /* Usar 'fixed' para manter o rodapé na posição */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    right: 0; /* Posiciona o rodapé à direita */
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    text-align: right; /* Alinha o texto à direita */
+    width: 100%; /* Largura total da tela */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Sombra opcional */
+}
+
+.rodape p {
+    margin: 5px 0; /* Margem para os parágrafos */
+}
