@@ -8,12 +8,13 @@
 </head>
 <body>
     <header>
-        <div class="logo">Serivços Hiranoyama</div>
+        <div class="logo">Serviços Hiranoyama</div>
         <nav>
             <a href="index.php">Home</a>
             <a href="sobre.php">Sobre Nós</a>
-            <a href="contato.php">contato</a>
-            <a href="servicos.php">serviços</a>
+            <a href="contato.php">Contato</a>
+            <a href="servicos.php">Serviços</a>
+			<a href="admin/lista_msg.php">ADMIN</a>
         </nav>
     </header>
 </body>

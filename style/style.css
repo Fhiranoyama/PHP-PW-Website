@@ -96,17 +96,15 @@ form button:hover {
     background-color: #444; /* Cor do botão ao passar o mouse */
 }
 
-/* Rodapé */
 footer {
-    position: fixed; /* Usar 'fixed' para manter o rodapé na posição */
-    bottom: 0; /* Posiciona o rodapé na parte inferior */
-    right: 0; /* Posiciona o rodapé à direita */
+    position: relative; /* Deixa o rodapé no fluxo normal da página */
     background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
     color: white; /* Cor do texto */
     padding: 10px; /* Espaçamento interno */
     text-align: right; /* Alinha o texto à direita */
     width: 100%; /* Largura total da tela */
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Sombra opcional */
+    margin-top: 20px; /* Espaçamento opcional acima do rodapé */
 }
 
 .rodape p {
